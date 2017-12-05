@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		84915B101FD54FB0003CA5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B0F1FD54FB0003CA5C7 /* AppDelegate.swift */; };
-		84915B121FD54FB0003CA5C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B111FD54FB0003CA5C7 /* ViewController.swift */; };
 		84915B151FD54FB0003CA5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84915B131FD54FB0003CA5C7 /* Main.storyboard */; };
 		84915B181FD54FB0003CA5C7 /* ManotteCrudSingleView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84915B161FD54FB0003CA5C7 /* ManotteCrudSingleView.xcdatamodeld */; };
 		84915B1A1FD54FB0003CA5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84915B191FD54FB0003CA5C7 /* Assets.xcassets */; };
 		84915B1D1FD54FB0003CA5C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84915B1B1FD54FB0003CA5C7 /* LaunchScreen.storyboard */; };
+		84915B2B1FD55820003CA5C7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B2A1FD55820003CA5C7 /* Note.swift */; };
+		84915B2D1FD587FD003CA5C7 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B2C1FD587FD003CA5C7 /* NoteDetailViewController.swift */; };
+		84915B501FD5B08B003CA5C7 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B4F1FD5B08B003CA5C7 /* NotesViewController.swift */; };
+		84915B521FD5B0B7003CA5C7 /* addNote2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915B511FD5B0B7003CA5C7 /* addNote2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84915B0C1FD54FB0003CA5C7 /* ManotteCrudSingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManotteCrudSingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84915B0F1FD54FB0003CA5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84915B111FD54FB0003CA5C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84915B141FD54FB0003CA5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84915B171FD54FB0003CA5C7 /* ManotteCrudSingleView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManotteCrudSingleView.xcdatamodel; sourceTree = "<group>"; };
 		84915B191FD54FB0003CA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84915B1C1FD54FB0003CA5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84915B1E1FD54FB0003CA5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84915B2A1FD55820003CA5C7 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		84915B2C1FD587FD003CA5C7 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		84915B4F1FD5B08B003CA5C7 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		84915B511FD5B0B7003CA5C7 /* addNote2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNote2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		84915B0E1FD54FB0003CA5C7 /* ManotteCrudSingleView */ = {
 			isa = PBXGroup;
 			children = (
+				84915B2A1FD55820003CA5C7 /* Note.swift */,
+				84915B4F1FD5B08B003CA5C7 /* NotesViewController.swift */,
+				84915B2C1FD587FD003CA5C7 /* NoteDetailViewController.swift */,
+				84915B511FD5B0B7003CA5C7 /* addNote2ViewController.swift */,
 				84915B0F1FD54FB0003CA5C7 /* AppDelegate.swift */,
-				84915B111FD54FB0003CA5C7 /* ViewController.swift */,
 				84915B131FD54FB0003CA5C7 /* Main.storyboard */,
 				84915B191FD54FB0003CA5C7 /* Assets.xcassets */,
 				84915B1B1FD54FB0003CA5C7 /* LaunchScreen.storyboard */,
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84915B2B1FD55820003CA5C7 /* Note.swift in Sources */,
+				84915B501FD5B08B003CA5C7 /* NotesViewController.swift in Sources */,
 				84915B181FD54FB0003CA5C7 /* ManotteCrudSingleView.xcdatamodeld in Sources */,
-				84915B121FD54FB0003CA5C7 /* ViewController.swift in Sources */,
 				84915B101FD54FB0003CA5C7 /* AppDelegate.swift in Sources */,
+				84915B2D1FD587FD003CA5C7 /* NoteDetailViewController.swift in Sources */,
+				84915B521FD5B0B7003CA5C7 /* addNote2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +315,7 @@
 				84915B231FD54FB0003CA5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
