@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class AddNoteViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class AddNoteViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     var panelTitleText = "Nouvelle Note de frais"
     var note: NSManagedObject? = nil
@@ -54,7 +54,7 @@ class AddNoteViewController: UIViewController,UIImagePickerControllerDelegate, U
     }
     
     //MARK: - Delegates
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    @nonobjc func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.image = image
         } else{
