@@ -94,7 +94,7 @@
                                     <constraint firstAttribute="width" constant="180" id="133-MU-k3c"/>
                                     <constraint firstAttribute="height" constant="70" id="9B0-Mx-C1H"/>
                                 </constraints>
-                                <state key="normal" title="Delete Contact"/>
+                                <state key="normal" title="Supprimer la note"/>
                                 <connections>
                                     <action selector="deleteNote:" destination="3aC-uF-Bol" eventType="touchUpInside" id="FOk-aL-D1z"/>
                                 </connections>
@@ -132,7 +132,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="edit" id="Yi4-Wd-jmF">
                             <connections>
-                                <segue destination="2sZ-uJ-BOb" kind="presentation" identifier="editNote" id="0g9-94-edH"/>
+                                <segue destination="2sZ-uJ-BOb" kind="presentation" identifier="editNoteSegue" id="0g9-94-edH"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -172,7 +172,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chemin de l'image" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WzP-vP-iyT">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ticket de caisse / Facture / ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WzP-vP-iyT">
                                 <rect key="frame" x="23" y="269" width="336" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -190,7 +190,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCP-5n-qsH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type de justificatif" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCP-5n-qsH">
                                 <rect key="frame" x="23" y="240" width="166" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <nil key="textColor"/>

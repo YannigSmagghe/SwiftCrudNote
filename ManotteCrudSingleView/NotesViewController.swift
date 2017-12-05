@@ -146,6 +146,7 @@ class NoteViewController: UITableViewController {
             guard let navViewController = segue.destination as? UINavigationController else { return }
             guard let viewController = navViewController.topViewController as? NoteDetailViewController else { return }
             guard let indexPath = tableView.indexPathForSelectedRow else { return }
+            
             let note = notes[indexPath.row]
             viewController.note = note
             viewController.indexPath = indexPath
