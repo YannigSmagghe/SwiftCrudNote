@@ -54,7 +54,7 @@ class AddNoteViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     //MARK: - Delegates
-    @nonobjc func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.image = image
         } else{
