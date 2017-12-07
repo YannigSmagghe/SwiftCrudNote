@@ -9,7 +9,8 @@ Ce que j'ai appris dans le projet :
 <li>Transférer un objet à une vue</li>
 <li>Charger un objet transférer</li>
 <li>Utiliser la galerie et la camèra de swift</li>
-<li>Utiliser les extensions</li>
+<li>Utiliser les extensions swift</li>
+<li>Envoyer un email depuis l'application (ne fonctionne pas dans le simulateur, le code est dans NoteViewController)</li>
 </ul>
 
 Ce que j'ai voulu faire qui n'as pas marché
